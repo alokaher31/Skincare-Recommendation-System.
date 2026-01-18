@@ -1,1 +1,54 @@
-# Skincare-Recommendation-System.
+# 🧴 Skincare Recommendation System.
+
+## 📌 Project Overview
+The **Skincare Recommendation System** is a machine learning–based web application that helps users discover suitable skincare products based on their **skin type, concerns, and preferences**.  
+The system combines **content-based filtering** and **collaborative filtering** techniques to deliver personalized and relevant product recommendations.
+
+This project is built using **Python, Machine Learning, and Dash**, making it interactive, scalable, and user-friendly.
+
+---
+
+## 🎯 Objectives
+- Provide **personalized skincare product recommendations**
+- Analyze product descriptions and user preferences using **Natural Language Processing (NLP)**
+- Improve recommendation accuracy using **Matrix Factorization**
+- Create an interactive **web-based dashboard**
+
+---
+
+## 🚀 Features
+- 🔍 Content-based recommendation using **TF-IDF Vectorization**
+- 🤝 Collaborative filtering using **SVD (Matrix Factorization)**
+- 📊 Interactive dashboard built with **Dash**
+- 🖼️ Product visualization with images
+- 📁 CSV-based skincare product dataset
+- ⚡ Fast and efficient recommendation engine
+
+---
+
+## 🧠 System Architecture
+1. **Data Collection** – Skincare product data stored in CSV format  
+2. **Data Processing** – Cleaning, preprocessing, and feature extraction  
+3. **Content-Based Filtering** – TF-IDF and cosine similarity  
+4. **Collaborative Filtering** – Surprise library with SVD  
+5. **Web Interface** – Dash application for user interaction  
+
+---
+
+## 🛠️ Technologies & Libraries Used
+
+### Programming Language
+- **Python**
+
+### Libraries & Frameworks
+- **Dash** – Web application framework
+- **Pandas** – Data manipulation and analysis
+- **NumPy** – Numerical computations
+- **Scikit-learn** – TF-IDF Vectorizer & similarity calculations
+- **Surprise** – Collaborative filtering (SVD model)
+- **Pickle** – Model serialization
+- **Base64** – Image encoding for dashboard display
+
+---
+
+## 📂 Project Structure
