@@ -92,3 +92,6 @@ python app.py
 
 4️⃣ Open in Browser
 http://127.0.0.1:8050/
+
+## 📸 Output Screenshots
+Screenshots will be added soon.
