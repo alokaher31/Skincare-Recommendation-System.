@@ -52,3 +52,43 @@ This project is built using **Python, Machine Learning, and Dash**, making it in
 ---
 
 ## 📂 Project Structure
+📁 skincare-recommendation-system
+│── app.py
+│── skindataall.csv
+│── output1.png
+│── output2.png
+│── svd_model.pkl
+│── README.md
+
+
+---
+
+## ⚙️ How It Works
+
+### 🔹 Content-Based Filtering
+- Uses **TF-IDF Vectorizer** to convert product descriptions into numerical features
+- Calculates **cosine similarity** between products
+- Recommends products with similar ingredients and descriptions
+
+### 🔹 Collaborative Filtering
+- Uses **SVD (Singular Value Decomposition)** from the Surprise library
+- Learns user-product interaction patterns
+- Predicts unseen product ratings for users
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/skincare-recommendation-system.git
+cd skincare-recommendation-system
+
+2️⃣ Install Required Libraries
+pip install -r requirements.txt
+
+3️⃣ Run the Application
+python app.py
+
+4️⃣ Open in Browser
+http://127.0.0.1:8050/
